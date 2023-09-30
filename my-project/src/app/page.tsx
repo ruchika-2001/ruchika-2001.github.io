@@ -15,14 +15,14 @@ import { Poppins, Playfair_Display } from 'next/font/google'
 import { faLinkedin, faWhatsapp, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const poppins = Poppins({
+const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-poppins',
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
 
-export const playfairDisplay = Playfair_Display({
+const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-playfair',
